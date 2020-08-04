@@ -26,15 +26,15 @@ It includes the following:
 - Two general purpose leds (red/green)
 
 Connectors:
-	J1 - Power Jack rated for 5A (PJ-047AH)
-	J2 - Headphone Jack
-	J3 - USB Micro B (for initial programming/debug)
-    J4, J9 - Battery connectors
-	J10 - .15" header, alt power
-	J5, J12 - .15" speaker connectors
-	J6, J13 - 5 pin .1" headers, for various gpio.
-	J7 - 4 pin .1" header for sh1105 OLED display
-	J11 - 6 pin .1" header for JTAG
+- J1 - Power Jack rated for 5A (PJ-047AH)
+- J2 - Headphone Jack
+- J3 - USB Micro B (for initial programming/debug)
+- J4, J9 - Battery connectors
+- J10 - .15" header, alt power
+- J5, J12 - .15" speaker connectors
+- J6, J13 - 5 pin .1" headers, for various gpio.
+- J7 - 4 pin .1" header for sh1105 OLED display
+- J11 - 6 pin .1" header for JTAG
 
 # What can it do
 
