@@ -47,7 +47,7 @@ It includes the following:
 - Jack 3.5mm for analogue line-out with insertion detection
 - SDPIF optical output
 - Connectors for GPIO
-- Onboard CP2102N for programming, with rx/tx leds. (must be programmed with silabs software to work)
+- Onboard CP2102N for programming, with rx/tx leds. (CP2102 must be programmed with silabs software for the leds to work, i.e. chaning the gpios for alternate functionality)
 - Charge LED 
 - Two general purpose LEDs (red/green)
 
