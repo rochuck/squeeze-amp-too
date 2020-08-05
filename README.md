@@ -16,18 +16,18 @@ For anyone else wanting to replicate this configuration, The WROVER is hooked up
 |10|35|I2S-LRCLK|
 |11|5|I2C-SCL|
 |12|3|I2C-SDA|
-|1||6|GND|
+|1|6|GND|
 
 Depending on your dev board, you may be able to pull power from the pi amp, but I would recommend separate power supplies, and just tie the grounds together.
 
-As of this writing [sle118's code](https://github.com/sle118/squeezelite-esp32/tree/c78c66faf57f0aea6eb86f7e74e01c9b28b824be) contains the TAS5713 driver I developed.
+As of this writing [sle118's repo](https://github.com/sle118/squeezelite-esp32/tree/c78c66faf57f0aea6eb86f7e74e01c9b28b824be) contains the TAS5713 driver I developed.
 To test this out I used the sdkconfig "SqueezeAmp8MBFlash-sdkconfig.defaults". 
 The code [here](https://github.com/sle118/squeezelite-esp32/blob/c78c66faf57f0aea6eb86f7e74e01c9b28b824be/components/squeezelite/output_i2s.c#L192)
 was modified to replace "CONFIG_DAC_CONFIG" with "NULL"
 so that the dac_config NVS parameter would not be overridden.
 
 The dac_config was set to:
-  - model=TAS5713,bck=33,ws=25,do=32,sda=27,scl=26,mute=14:0
+  - model=TAS5713,bck=33,ws=25,do=32,sda=27,scl=26
 
 Also note that the partition map needed to be changed so that the OTA application resides at 0x160000.
 
