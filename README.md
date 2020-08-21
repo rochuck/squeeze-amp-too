@@ -3,7 +3,7 @@
 The SqueezeAmpToo is designed by Dave Viberg and Chuck Rohs and was completely inspired by the [SqueezeAMP project](https://github.com/philippe44/SqueezeAMP) and the [SqueezeESP project](https://github.com/philippe44/squeezelite-esp32).
 
 ## HiFiBerry Prototype
-This design was prototyped using the squeezelite-esp32 code on a WROVER board that was fly-wired to clone of the HiFiBerry AMP+. This audio board uses the TAS5713, and as such an appropriate driver needed to be written to use the squeezelite-esp32 code. That is now all ancient history but the picture and development is documented here for posterity (covered in CNC router dust):
+This design was prototyped using the squeezelite-esp32 code on a WROVER board that was fly-wired to a clone of the HiFiBerry AMP+. This audio board uses the TAS5713, and as such an appropriate driver needed to be written to use the squeezelite-esp32 code. That is now all ancient history but the picture and development is documented here for posterity (covered in CNC router dust):
 
   ![alt text](./images/IMG_4204.png "HifiBerry with SqueezeESP")
 
@@ -87,7 +87,7 @@ We're using Protel 99SE for schematics and routing. The near finalized V2 (rev c
 
  ![V2c Schematic](./images/sch-v2c.pdf "V2c Schematic")
 
- ![V2c Top Copper](./images/top-v2c.gif "Top Coopper")
+ ![V2c Top Copper](./images/top-v2c.pdf "Top Coopper")
 
 
 
