@@ -75,8 +75,9 @@ With the squeezelite-esp32 software, you can (as quoted from the SqueezeAMP)
 - Support for WS2812 RGB LED VU meters (other coming soon). Supported with a 5v buck converter with enable
 - Rotary encoder daughter board with IIC/SPI gpio expanders
 
-The RGB LEDS are illustrated in the animated GIF (it will only loop once in certain browsers). This little box has 31 ws2812's (144 leds/meter density).  The current software consumes visualization data, and at 30 FPS it will sometimes "steal" the data from OLED VU and spectrum analyser.  This will be addressed in future software releases.
-
+The RGB LEDS are illustrated in the animated GIF (it will only loop once in certain browsers, click on the image to see it in action if it isn't animating). This little box has 31 ws2812's (144 leds/meter density) along with the very nice/quasi expensive ssd1322 256 x 64 OLED.  The
+[current software](https://github.com/rochuck/squeezelite-esp32/tree/sa2_rgb_vu#rgb-vu-meters)
+consumes visualization data, and at 30 FPS it will sometimes "steal" the data from OLED VU and spectrum analyser.  This shortcoming will be addressed in future software releases.
 
  ![LED VU meters](./images/led_vu.gif "LED VU meters")
 
@@ -86,7 +87,7 @@ We're using Protel 99SE for schematics and routing. The near finalized V2 (rev c
 
  ![V2c Schematic](./images/sch-v2c.pdf "V2c Schematic")
 
- ![V2c Schematic](./images/top-v2c.gif "Top Coopper")
+ ![V2c Top Copper](./images/top-v2c.gif "Top Coopper")
 
 
 
