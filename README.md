@@ -72,7 +72,21 @@ With the squeezelite-esp32 software, you can (as quoted from the SqueezeAMP)
 - Add your own buttons, rotary encoder and map/combine them to various functions (play, pause, volume, next ...
 - Use IR control by adding a simple receiver compatible with 38kHz device (no pullup resistor or capacitor needed)
 - Add a display like this [one](https://www.buydisplay.com/i2c-blue-0-91-inch-oled-display-module-128x32-arduino-raspberry-pi) which can be directly connected to the 6-pins header. Currently, SSD1306, SSD1326/7 and SH1106 displays are supported.
+- Support for WS2812 RGB LED VU meters (other coming soon). Supported with a 5v buck converter with enable
+- Rotary encoder daughter board with IIC/SPI gpio expanders
+
+The RGB LEDS are illustrated in the animated GIF. This little box has 31 ws2812's (144 leds/meter density).  The current software consumes visualization data, and at 30 FPS it will sometimes "steal" the data from OLED VU and spectrum analyser.  This will be addressed in future software releases
+
+
+ ![alt text](./images/led_vu.gif "LED VU meters")
 
 # Tools, source and BOM
 
-We're using Protel 99SE for schematics and routing. More to come... stay tuned
+We're using Protel 99SE for schematics and routing. The near finalized V2 (rev c) schematic and top copper are shown below
+
+ ![alt text](./images/sch-v2c.pdf "V2c Schematic")
+
+ ![alt text](./images/top-v2c.gif "Top Coopper")
+ 
+
+
