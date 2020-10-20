@@ -2,6 +2,28 @@
 
 The SqueezeAmpToo is designed by Dave Viberg and Chuck Rohs and was completely inspired by the [SqueezeAMP project](https://github.com/philippe44/SqueezeAMP) and the [SqueezeESP project](https://github.com/philippe44/squeezelite-esp32).
 
+While this project borrows a lot from the SuqeezeAmp, it has some differences for both reduced cost and added functionality. These include:
+* only 2 cells supported for reduced power consumption/heat.
+* larger board to add a better performing 1 inch <sup>2</sup> heat sink for 16V operation. The board is now basically the size of a dual 18650 battery pack.
+* a cost reduced charger and buck regulator
+* onboard USB to serial interface for easy initial programming along with a JTAG port.
+* V2 fixes a charger wiring error, low voltage cutoff for 3.3v buck, headphone and powerjack footprints.
+* V2 adds an optional spi display header, rotary encoder and button board with an I2C expander, a daughter board to drive ws2812s, a battery pack thermister, and IR remote control daughter board.
+
+The squeeze amp board is running in the box show below.  To run this board, in particular the RGB LEDs and I2C buttons on the gpio expander, the [SqueezeAmpToo Software](https://github.com/rochuck/squeezelite-esp32/tree/squeezetoo) should be used. This software is a fork of the SqueezeEsp project referenced above.
+
+The RGB LEDS are illustrated in the animated GIF (it will only loop once in certain browsers, click on the image to see it in action if it isn't animating). This little box has 31 ws2812's (144 leds/meter density) along with the very nice/quasi expensive ssd1322 256 x 64 OLED.  While the leds might be a little bit hokey, the center led changed color to indicate the battery voltage. This is all described in the [Readme](https://github.com/rochuck/squeezelite-esp32/blob/squeezetoo/README.md).
+
+ ![LED VU meters](./images/led_vu.gif "LED VU meters")
+
+# Gerbers, BOM, and Software
+We're using Protel 99SE for schematics and routing. The current version, V2, files are here:
+
+ ![V2 Schematic](./images/sch-v2c.pdf "V2 Schematic")
+
+ ![V2c Top Copper](./images/top-v2c.pdf "Top Coopper")
+
+
 ## HiFiBerry Prototype
 This design was prototyped using the squeezelite-esp32 code on a WROVER board that was fly-wired to a clone of the HiFiBerry AMP+. This audio board uses the TAS5713, and as such an appropriate driver needed to be written to use the squeezelite-esp32 code. That is now all ancient history but the picture and development is documented here for posterity (covered in CNC router dust):
 

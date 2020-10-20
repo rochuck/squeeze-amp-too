@@ -1,0 +1,30 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: SqueezeAmpTooV2-panel.PCB   18-Oct-2020  23:45:52
+---------------------------------------------------------------------------
+
+
+
+Layer Pair : TopLayer to BottomLayer
+ASCII File : NCDrillOutput.TXT
+EIA File   : NCDrillOutput.DRL
+
+Tool         Hole Size          Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        12mil (0.3048mm)         377              41.41 Inch (1051.76 mm)
+T2        20mil (0.508mm)          4                5.22 Inch (132.51 mm)
+T3        25mil (0.635mm)          2                4.07 Inch (103.27 mm)
+T4        28mil (0.7112mm)         25               13.27 Inch (337.00 mm)
+T5        35mil (0.889mm)          11               8.15 Inch (207.14 mm)
+T6        36mil (0.9144mm)         3                3.87 Inch (98.21 mm)
+T7        41mil (1.0414mm)         2                6.22 Inch (157.87 mm)
+T8        42mil (1.0668mm)         64               21.52 Inch (546.51 mm)
+T9        46mil (1.1684mm)         2                3.80 Inch (96.53 mm)
+T10       60mil (1.524mm)          6                5.07 Inch (128.84 mm)
+T11       64mil (1.6256mm)         3                4.91 Inch (124.61 mm)
+T12       76mil (1.9304mm)         2                4.72 Inch (119.95 mm)
+T13       86mil (2.1844mm)         1                4.59 Inch (116.47 mm)
+T14       100mil (2.54mm)          4                9.23 Inch (234.32 mm)
+---------------------------------------------------------------------------
+Totals                             506              136.02 Inch (3454.99 mm)
+
+Total Processing Time : 00:00:00
