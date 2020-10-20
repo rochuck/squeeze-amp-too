@@ -28,9 +28,9 @@ We're using Protel 99SE for schematics and routing. The current version, V2, fil
 
  ![V4 DaughterBoards Doc Package](./images/DOC-DaughterBoards-v4.pdf "V4 DaughterBoards Doc Package")
 
- The [CAM PACKAGE](https://github.com/rochuck/squeeze-amp-too/tree/master/CAM-SqueezeAmpTooV2-panel) is here.
+ The [CAM PACKAGE](https://github.com/rochuck/squeeze-amp-too/tree/master/CAM-SqueezeAmpTooV2-panel-url) is here.
 
- The [BOM](https://github.com/rochuck/squeeze-amp-too/tree/master/SqueezeAmpTooV1-BOM) is here. Note however this is the V1 BOM. It does not contain the daughterboard parts, But should get you started.
+ The [BOM](https://github.com/rochuck/squeeze-amp-too/blob/master/SqueezeAmpTooV1-BOM.xlsx) is here. Note however this is the V1 BOM. It does not contain the daughterboard parts, But should get you started.
 
  As stated above Software is [here](https://github.com/rochuck/squeezelite-esp32/tree/squeezetoo) and [here](https://github.com/rochuck/squeezelite-esp32/releases/tag/0.0.6-rgb-led-update-v4.0-SqueezeToo-squeezetoo).
 
