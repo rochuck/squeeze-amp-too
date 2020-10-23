@@ -2,7 +2,7 @@
 
 The SqueezeAmpToo is designed by Dave Viberg and Chuck Rohs and was completely inspired by the [SqueezeAMP project](https://github.com/philippe44/SqueezeAMP) and the [SqueezeESP project](https://github.com/philippe44/squeezelite-esp32).
 
-While this project borrows a lot from the SuqeezeAmp, it has some differences for both reduced cost and added functionality. These include:
+While this project borrows a lot from the SqueezeAmp, it has some differences for both reduced cost and added functionality. These include:
 * only 2 cells supported for reduced power consumption/heat.
 * larger board to add a better performing 1 inch <sup>2</sup> heat sink for 16V operation. The board is now basically the size of a dual 18650 battery pack.
 * a cost reduced charger and buck regulator
@@ -34,7 +34,8 @@ We're using Protel 99SE for schematics and routing. The current version, V2, fil
 
  As stated above Software is [here](https://github.com/rochuck/squeezelite-esp32/tree/squeezetoo) and [here](https://github.com/rochuck/squeezelite-esp32/releases/tag/0.0.6-rgb-led-update-v4.0-SqueezeToo-squeezetoo).
 
-
+## Errata
+The pinouts for the IR receiver are wrong.  Pins 2 and 3 are transposed.
 
 # History
 
