@@ -1,0 +1,30 @@
+CAM Outputs Generation Report
+for 'CAM Outputs for SqueezeAmpTooV2-panel.cam'
+at 23:45:51 on 18-Oct-2020
+
+
+'Pick Place Output 1'
+'Pick Place for SqueezeAmpTooV2-panel.txt' generated
+'Pick Place for SqueezeAmpTooV2-panel.csv' generated
+
+'NC Drill Output 1'
+'SqueezeAmpTooV2-panel.TXT' generated
+'SqueezeAmpTooV2-panel.DRL' generated
+'SqueezeAmpTooV2-panel.DRR' generated
+
+'Gerber Output 1'
+'SqueezeAmpTooV2-panel.GTL' generated
+'SqueezeAmpTooV2-panel.GBL' generated
+'SqueezeAmpTooV2-panel.GTO' generated
+'SqueezeAmpTooV2-panel.GBO' generated
+'SqueezeAmpTooV2-panel.GTP' generated
+'SqueezeAmpTooV2-panel.GBP' generated
+'SqueezeAmpTooV2-panel.GTS' generated
+'SqueezeAmpTooV2-panel.GBS' generated
+'SqueezeAmpTooV2-panel.GM4' generated
+'SqueezeAmpTooV2-panel.GPT' generated
+'SqueezeAmpTooV2-panel.GPB' generated
+'SqueezeAmpTooV2-panel.REP' generated
+
+
+Total number of generated files = 17
